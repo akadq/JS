@@ -31,5 +31,5 @@ console.log(typeof a, typeof b, typeof c);
 // console.log(prompt('Middlename?'));
 // console.log(prompt('Year?'));
 
-let bigNum = Number.MAX_SAFE_INTEGER;
-console.log(bigNum);
+let bigNumb = Number.MAX_SAFE_INTEGER;
+console.log(bigNumb);
