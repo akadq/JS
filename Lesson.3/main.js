@@ -135,7 +135,7 @@ for (const user of falseUsers) {
 }
 document.write('</ul>');
 
-document.write('<h2>False users</h2>');
+document.write('<h2>Older than 30 users</h2>');
 document.write('<ul>');
 for (const user of olderThirty) {
     document.write(`<li>${user.name}, ${user.age}, ${user.status}</li>`);
