@@ -202,9 +202,7 @@ let coursesArray = [
 // --написати пошук всіх об'єктів, в який в modules є sass
 // --написати пошук всіх об'єктів, в який в modules є docker
 
-const findProperties = (property) => {
-    return coursesArray.filter(e => e.modules.includes(property));
-};
+const findProperties = ((property) => coursesArray.filter(e => e.modules.includes(property)));
 
 console.log(findProperties('sass'));
 console.log(findProperties('docker'));
