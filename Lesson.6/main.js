@@ -125,6 +125,15 @@ const groupBySuite = cardSuite.reduce((acc, curr) => {
     return acc;
 }, {});
 
+const copyGroupBySuite = cardSuite.reduce((accumulator, current) => {
+    const suit = current.Suite;
+    if (accumulator[suit]) {
+        acc[suit] = [...accumulator[suit], current];
+    } else {
+        accumulator[suit] = current;
+    }
+    return accumulator;
+}, {})
 
 console.log(groupBySuite);
 
