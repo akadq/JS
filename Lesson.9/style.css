@@ -1,0 +1,48 @@
+#title {
+    display: flex;
+    border: 1px solid black;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    display: flex;
+}
+
+#monthDuration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 30px;
+    width: 30%;
+    margin-right: 5px;
+}
+
+#hourDuration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 30px;
+    width: 69%;
+    margin-bottom: 5px;
+}
+
+.modules {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.specs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 25px;
+    padding-left: 10px;
+}
