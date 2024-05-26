@@ -142,6 +142,7 @@ for (let course of coursesArray) {
     let hourDuration = document.createElement('div');
     let modules = document.createElement('div');
     title.id = 'title';
+    title.ariaPlaceholder = 'Title';
     mainContainer.id = 'mainContainer';
     monthDuration.id = 'monthDuration';
     hourDuration.id = 'hourDuration';

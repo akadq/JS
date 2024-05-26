@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+title::placeholder {
+    color: gray;
+    font-style: italic;
+    opacity: 1; /* Ensures full opacity */
+}
+
 #mainContainer {
     display: flex;
 }
