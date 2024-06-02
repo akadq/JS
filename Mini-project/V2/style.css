@@ -1,0 +1,34 @@
+body {
+    /*display: block;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*height: 100vh;*/
+    /*background: rgb(36, 33, 0);*/
+    /*background: linear-gradient(135deg, rgba(36, 33, 0, 1) 0%, rgba(121, 107, 9, 1) 46%, rgba(255, 239, 0, 1) 100%);*/
+    color: darkblue;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    background: lightgoldenrodyellow;
+}
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+}
+
+.innerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    background: lightblue;
+    border: 1px solid gray;
+    margin: 0.3%;
+}
+
+.btn {
+    margin: 10px;
+    font-size: 1.05em;
+    height: 30px;
+}
